@@ -7,9 +7,7 @@ let points = document.getElementsByClassName("point");
 const gameBtn = document.querySelector("#gameBtn");
 
 // Слушатели событий
-document
-  .querySelector("#loginWrapper form")
-  .addEventListener("submit", (event) => {
+document.querySelector("#loginWrapper form").addEventListener("submit", (event) => {
     event.preventDefault();
     auth();
   });
