@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./img/bomb.png" type="image/x-icon">
+
+    <title>Сапер</title>
+  </head>
+  <body>
+    <div id="loginWrapper">
+      <form>
+        <h3>Введите свой логин</h3>
+        <input type="text" id="login">
+      </form>
+    </div>
+    <header class="rounded">
+      <img src="./img/bomb.png" alt="logo" class="logo" />
+      <h1>САПР</h1>
+      <span>[Юрий Максимович кол-во баллов: 500 000]</span>
+    </header>
+    <div class="main">
+      <div class="gameArea rounded">
+        <div class="gameField">
+         
+        </div>
+      </div>
+
+      <div class="gameSetting rounded">
+        <h2>КОЛИЧЕСТВО БАЛЛОВ</h2>
+        <div class="score">
+          <div class="point active">1000</div>
+          <div class="point">2000</div>
+          <div class="point">3000</div>
+          <div class="point">5000</div>
+          <div class="point">10000</div>
+        </div>
+        <button id="gameBtn">ИГРАТЬ</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
