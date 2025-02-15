@@ -31,14 +31,14 @@
   );
 }
 #loginWrapper form {
-  width: 320px;
+  width: calc(3.1vw + 280px);
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
 #loginWrapper form h3 {
-  font-size: 30px;
+  font-size: calc(0.5vw + 23.3px);
 }
 #loginWrapper form input {
   width: 100%;
@@ -56,26 +56,29 @@ body {
 .rounded {
   background-color: var(--light-purple);
   border-radius: 20px;
-  padding: 30px;
-  margin-bottom: 20px;
+  padding: calc(1.6vw + 10px);
+  margin-bottom: calc(1vw + 6.7px);
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: calc(3.1vw + 40px);
+  height: calc(3.1vw + 40px);
 }
 header {
   display: flex;
   align-items: center;
-  gap: 0 20px;
+  justify-content: center;
+  gap: 15px 20px;
+  flex-wrap: wrap;
 }
 h1 {
   font-weight: 750;
 
-  font-size: 36px;
+  font-size: calc(1.1vw + 21.3px);
 }
 header span {
   font-size: 18px;
+  text-align: center;
 }
 .main {
   display: flex;
@@ -94,8 +97,8 @@ header span {
   align-items: center;
 }
 .field {
-  width: 30px;
-  height: 30px;
+  width: calc(1vw + 17px);
+  height: calc(1vw + 17px);
   border-radius: 4px;
   background-color: var(--purple);
   cursor: pointer;
@@ -115,12 +118,12 @@ header span {
 .gameField {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 5px;
+  gap: calc(0.3vw + 1px);
 }
 .gameSetting h2 {
-  font-size: 26px;
+  font-size: calc(0.8vw + 15.3px);
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: calc(1.7vw + 8.6px);
 }
 .score {
   display: flex;
@@ -131,29 +134,30 @@ header span {
 .point {
   flex-basis: 150px;
   background-color: var(--purple);
-  padding: 16px 20px;
+  padding: calc(0.9vw + 4px) 20px;
   flex-grow: 1;
   text-align: center;
   border-radius: 28px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: calc(0.6vw + 16px);
 }
 .point.active {
   background-color: var(--orange);
 }
-#gameBtn {
+#gameBTN {
   width: 100%;
-  padding: 13px;
+  padding: calc(0.5vw + 6.33px);
   background-color: var(--green);
   border-radius: 32px;
   border: 0;
   cursor: pointer;
-  font-size: 24px;
+  font-size: calc(0.4vw + 18.6px);
 }
 
 .field.bomb{
     background-image: url(./img/bomb.png);
     background-color: #66a663;
     background-position: center;
-    background-size: 30px;
+    background-size: calc(1vw + 16.7px);
 }
+
