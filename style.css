@@ -102,7 +102,7 @@ header span {
   border-radius: 4px;
   background-color: var(--purple);
   cursor: pointer;
-  font-size: 24px;
+  font-size: calc(0.8vw + 13.3px);
   display: flex;
   justify-content: center;
   align-items: center;
